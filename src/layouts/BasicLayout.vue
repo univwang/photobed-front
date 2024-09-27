@@ -4,9 +4,9 @@
       <a-layout-header class="header">
         <GlobalHeader />
       </a-layout-header>
-      <a-layout-content class="content">
-        <router-view />
-      </a-layout-content>
+
+      <router-view />
+
       <a-layout-footer class="footer">
         <a href="https://www.baidu.com"> by wang </a>
       </a-layout-footer>
@@ -24,7 +24,9 @@
 }
 
 #basicLayout .content {
-  background: linear-gradient(to right, #eee, #fff);
+  background: linear-gradient(to right, #bbb, #bbb);
+  text-align: center;
+  align-items: normal;
 }
 
 #basicLayout .footer {
